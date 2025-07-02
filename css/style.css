@@ -1,0 +1,34 @@
+.container{
+    width: 1250px;
+    height: 400px;
+    margin: 20px 15px;
+    outline: 1px solid orange;
+    position: absolute;
+}
+
+.container :first-child{
+    background-color: rgb(255, 119, 126);
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+
+.container :nth-child(2){
+    background-color: rgb(108, 145, 255);
+    position: relative;
+    top: 20%;
+    left: 45%;
+    z-index: 1;
+}
+
+.container :nth-child(3){
+    background-color: rgb(73, 205, 132);
+    position: relative;
+    top: 10%;
+    left: 50%;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
